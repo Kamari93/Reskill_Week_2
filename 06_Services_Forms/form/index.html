@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../pics/favicon.ico">
+    <title>Midnight Organic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- <a href="" class="logo"><i class="ri-home-gear-fill"></i><span>Logo</span></a> -->
+        <div class="sidebar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+
+        <div>
+            <a href="../index.html" class="logo"><img src="../pics/MidnightOrganic.avif" alt=""></a>
+        </div>
+
+        <div class="main">
+            <a href="#" class="icon"><i class="ri-search-line"></i></a>
+            <a href="#" class="icon"><i class="ri-shopping-bag-line"></i></a>
+            <!-- <div class="bx bx-menu" id="menu-icon"></div> -->
+        </div>
+    </header>
+
+    <!-- Form container -->
+    <div class="form-page">
+        <!-- Form goes here -->
+        <section>
+            <div class="contact-container">
+                <div class="form-container">
+                    <h3>Contact Us</h3>
+                    <form action="../submit/index.html" class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" name="" id="" placeholder="Enter Your Email..." required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Message Here..." required></textarea>
+                        <select name="drop" id="drop" required>
+                            <!-- since first option has no value it will get flagged for req if one doesn't choose option -->
+                            <option value="" disabled selected value>Priority Level</option>
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                        <input type="submit" value="Send" class="send-btn">
+                    </form>
+                </div>
+                <!-- Map -->
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50167897.71310948!2d-127.45798855210698!3d39.87411525428815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sus!4v1671032195643!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </section>
+
+    </div>
+
+        <footer class="sticky">
+            <div class="logos">
+                <i class="ri-visa-line"></i>
+                <i class="ri-mastercard-fill"></i>
+                <i class="ri-apple-fill"></i>
+                <i class="ri-google-fill"></i>
+                <i class="ri-paypal-fill"></i>
+            </div>
+            <div class="policies">
+                <ul>
+                    <li><a href="">Refund Policy</a></li>
+                    <li><a href="">Shipping Policy</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+            <p>© 2023 Midnight Organic.</p> 
+            </div>
+        </footer>
+    </div>
+    
+    <!-- js link -->
+    <script type="text/javascript" src="../script.js"></script>
+</body>
+</html>
