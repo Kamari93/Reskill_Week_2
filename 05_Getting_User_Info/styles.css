@@ -1,0 +1,37 @@
+input[type=text],
+select,
+textarea {
+    width: 25%;
+    padding: 12px;
+    /* Gray border */
+    border: 1px solid #ccc;
+    /* Rounded borders */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #DFE8CC;
+}
+
+div {
+    margin: 25px;
+}
+
+
+#message {
+    height: 150px;
+    width: 35%;
+    padding-top: 0;
+    padding-left: 0;
+    /* display: inline-block; */
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
